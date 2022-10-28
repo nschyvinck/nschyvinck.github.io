@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
+Body {
+	width: 60%;
+	background-color: #d3d3d3;
+	font-family: 'Oswald', sans-serif;
+	margin: auto;
+}
+header h1 {
+	float: left;
+	margin: 0;
+	color: #000000;
+}
+header {
+	padding:  60px;
+	height:  28px;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+}
+nav li {
+	display: inline;
+	margin-left: 30px;
+	font-size: 20px;
+}
+header a {
+	color: #282130;
+	text-decoration: none;
+}
+.title {
+color: #893101;
+margin-bottom: 5px;
+}
+.location {
+color: #1c2e4a;
+margin: 0;
+}
